@@ -1,0 +1,52 @@
+.imageBorder{
+    border-radius: 50px; /* Радиус скругления */
+    border: 2px solid var(--icon-redesigned); /* Параметры рамки */
+    
+}
+
+.buttonAlign{
+ margin: 0 auto;
+ display: block;
+}
+.registerContent{
+      // flex-grow: 1;
+   text-align: center;
+  align-items: center;
+  flex-basis: 0;
+}
+.RegisterPageWidget{
+align-items: center;
+   justify-content: space-around;
+   flex-flow:  wrap;
+}
+
+.custom-file-upload {
+  display: none;
+}
+
+.download{
+  background-color: #000;
+  color: #fff;
+  padding: 1px 6px;
+  cursor: pointer;
+}
+
+.customFileInput{
+    opacity: 0;
+    width: 0.1px;
+    height: 0.1px;
+    display: none;
+    z-index: -1; /* "Скрываем" поле ввода */
+  }
+  /* Создаем "подмену" кнопки */
+//   .file-btn {
+//     background: #f1f1f1;
+//     border: 1px solid #d3d3;
+//     padding: 5px 15px;
+//     border-radius: 5px;
+//     cursor: pointer;
+//     display: inline-block;
+//   }
+
+  //-----------------------
+

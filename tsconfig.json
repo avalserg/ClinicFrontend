@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    //нельзя указать переменную без типа
+    "noImplicitAny": true,
+    "module": "ESNext",
+    //в какую спецификацию компилируем
+    "target": "es2017",
+    //разрешает консрукции  jsx
+    //если react-jsx - то импорт react не нужен в tsx файлы
+    "jsx": "react-jsx",
+    //обработка и js и ts файлов
+    "allowJs": true,
+    "strict": true,
+    "moduleResolution": "node",
+    // "baseUrl": ".",
+    // позволяет работать с пакетамми, которые
+    //используют common.js как с обычными пакетами с помощью (import require() module.export) = common js
+    "esModuleInterop": true,
+    //для абсолютного импорта
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+    },
+    //import webpack from "webpack" использовать импорты в таком виде
+    //а не в import * as HtmlWebpackPlugin from "html-webpack-plugin";
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS",
+    },
+  },
+  "include": [
+    "./.eslintrc.js",
+    "./webpack.config.ts",
+    "./config/jest/setupTests.ts",
+    "./config/jest/jestEmptyComponent.tsx",
+    "./src/**/*.ts",
+    "./src/**/*.tsx", "src/Widgets/RegisterPatientPage/UI/ImageUpload.jsx", "localStorage.ts", "src/Entities/Prescription/Model/selectors/getCountPrescriptionsData/getCountPrescriptionsData.ts",
+  ],
+}

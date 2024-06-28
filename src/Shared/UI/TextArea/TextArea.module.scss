@@ -1,0 +1,52 @@
+.InputWrapper {
+  display: flex;
+  align-items: center;
+  border-radius: 48px;
+  padding: 8px 16px;
+  border: 2px solid var(--icon-redesigned);
+  height: 200px;
+  width: 100%;
+}
+
+
+
+.addonLeft,
+.addonRight {
+  display: flex;
+}
+
+.withAddonLeft {
+  padding-left: 8px;
+}
+
+.withAddonRight {
+  padding-right: 8px;
+}
+
+
+
+
+.textarea {
+  border: none;
+  outline: none;
+  width: 400px;
+  height: 120px;
+  padding: 15px;
+  border-radius: 10px;
+  color: var(--text-redesigned);
+  background: none;
+  border: 2px solid var(--accent-redesigned);
+  resize: vertical;
+ 
+  &::placeholder {
+    color: var(--hint-redesigned);
+  }
+}
+
+.readonly {
+  opacity: 0.7;
+}
+textarea::-webkit-resizer {
+    display: none;
+    
+}

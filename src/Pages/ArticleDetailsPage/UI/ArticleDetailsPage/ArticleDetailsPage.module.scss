@@ -1,0 +1,24 @@
+.ArticleDetailsPage {
+  min-height: 100%;
+  flex-wrap: nowrap;
+
+  .recommendations {
+    margin-top: 20px;
+    flex-wrap: nowrap;
+    overflow-y: hidden;
+    /* stylelint-disable-next-line declaration-block-no-redundant-longhand-properties */
+    overflow-x: auto;
+  }
+}
+
+.commentTitle {
+  margin-top: 20px;
+}
+
+// .recommendations {
+//   margin-top: 20px;
+//   flex-wrap: nowrap;
+//   overflow-y: hidden;
+//   /* stylelint-disable-next-line declaration-block-no-redundant-longhand-properties */
+//   overflow-x: auto;
+// }

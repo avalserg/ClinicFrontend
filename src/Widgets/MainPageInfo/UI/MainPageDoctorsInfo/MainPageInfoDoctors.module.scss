@@ -1,0 +1,19 @@
+.MainPageInfoDoctors{
+   align-items:center;
+flex-flow: column wrap;
+height: 100%;
+width: 100%;
+}
+.cardContent{
+  flex-grow: 1;
+   text-align: center;
+  align-items: stretch;
+flex-basis: 0;
+min-width: 200px;
+min-height: 100px;
+}
+.stretchAlign{
+  align-items: stretch;
+   justify-content: space-around;
+   flex-flow: row wrap;
+}

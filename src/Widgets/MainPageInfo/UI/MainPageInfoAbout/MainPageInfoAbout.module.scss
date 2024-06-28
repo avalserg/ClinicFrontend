@@ -1,0 +1,23 @@
+.imageBorder{
+    border-radius: 50px; /* Радиус скругления */
+    border: 2px solid var(--icon-redesigned); /* Параметры рамки */
+    
+}
+.buttonAlign{
+ margin: 0 auto;
+ display: block;
+}
+
+
+.MainPageLIstInfoItemHome{
+   align-items: center;
+   justify-content: space-around;
+   flex-flow:  wrap;
+}
+
+.aboutContent{
+      flex-grow: 1;
+   text-align: center;
+  align-items: center;
+  flex-basis: 0;
+}

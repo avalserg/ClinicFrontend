@@ -1,0 +1,6 @@
+
+export const enum ValidateCreateReviewError {
+    INCORRECT_DESCRIPTION_LENGTH = 'INCORRECT_DESCRIPTION_LENGTH',
+    NO_DATA = 'NO_DATA',
+    SERVER_ERROR = 'SERVER_ERROR',
+}

@@ -1,0 +1,12 @@
+{
+  "Профиль": "Profile",
+  "Редактировать": "Edit",
+  "Сохранить": "Save",
+  "Ошибка сервера": "Server error",
+  "Имя и фамилия обязательны": "First name and last name are required",
+   "Ваш Id":"Your Id",
+    "Ваш логин":"Your login",
+    "Ваш возраст":"Your age",
+    "Ваш адрес":"Your address",
+    "Ваш аватар":"Your avatar"
+}

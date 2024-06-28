@@ -1,0 +1,1 @@
+export { RegisterDoctorFormAsync as RegisterDoctorForm } from "./UI/RegisterDoctorForm/RegisterDoctorForm.async";

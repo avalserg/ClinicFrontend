@@ -1,0 +1,14 @@
+.Overlay {
+  background: var(--overlay-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  /* stylelint-disable-next-line declaration-block-no-redundant-longhand-properties */
+  left: 0;
+  z-index: var(--overlay-z-index);
+  cursor: pointer;
+}

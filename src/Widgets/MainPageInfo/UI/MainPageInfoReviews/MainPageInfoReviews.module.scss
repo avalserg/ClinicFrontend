@@ -1,0 +1,17 @@
+
+.MainPageInfoReviews{
+align-items: stretch;
+   justify-content: space-around;
+   flex-flow: row wrap;
+}
+.cardContent{
+     flex-grow: 1;
+   text-align: center;
+  align-items: stretch;
+flex-basis: 0;
+}
+.stretchAlign{
+  align-items: stretch;
+   justify-content: space-around;
+   flex-flow: row wrap;
+}

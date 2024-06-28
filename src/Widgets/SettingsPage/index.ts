@@ -1,0 +1,1 @@
+export { SettingsPageAccountWidget} from "./UI/SettingsPageAccountWidget"

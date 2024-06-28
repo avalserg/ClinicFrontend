@@ -1,0 +1,21 @@
+.imageBorder{
+    border-radius: 50px; /* Радиус скругления */
+    border: 2px solid var(--icon-redesigned); /* Параметры рамки */
+    
+}
+
+.buttonAlign{
+ margin: 0 auto;
+ display: block;
+}
+.registerContent{
+      // flex-grow: 1;
+   text-align: center;
+  align-items: center;
+  flex-basis: 0;
+}
+.RegisterPageWidget{
+align-items: center;
+   justify-content: space-around;
+   flex-flow:  wrap;
+}

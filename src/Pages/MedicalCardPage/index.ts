@@ -1,0 +1,1 @@
+export {MedicalCardPageAsync as MedicalCardPage } from "./UI/MedicalCardPage/MedicalCardPage.async"

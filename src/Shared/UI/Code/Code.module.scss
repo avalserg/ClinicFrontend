@@ -1,0 +1,27 @@
+.Code {
+  border: 1px solid var(--primary-color);
+  padding: 20px;
+  position: relative;
+  background: var(--code-bg);
+  overflow: auto;
+}
+
+.CodeRedesigned {
+  padding: 20px;
+  position: relative;
+  background: var(--light-bg-redesigned);
+  overflow: auto;
+  border: 1px solid var(--accent-redesigned);
+  border-radius: 16px;
+}
+
+.copyBtn {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+// override in svg path stroke
+.copyIcon path {
+  stroke: var(--primary-color);
+}

@@ -1,0 +1,1 @@
+export {PrescriptionPageAsync as PrescriptionPage } from "./UI/PrescriptionPage/PrescriptionPage.async"

@@ -1,0 +1,1 @@
+export {RegisterPatientPageWidget } from "./UI/RegisterPatientPageWidget"

@@ -1,0 +1,16 @@
+{
+    "Штатных врача":"Staff doctors",
+    "{{count}} просмотров_zero": "{{count}} просмотров",
+  "{{count}} просмотров_one": "{{count}} просмотр",
+  "{{count}} просмотров_few": "{{count}} просмотра",
+  "{{count}} просмотров_many": "{{count}} просмотров",
+      "{{count}} штатный врач_zero": "{{count}} staff doctors",
+   "{{count}} штатный врач_one": "{{count}} staff doctor",
+   "{{count}} штатный врач_other": "{{count}} staff doctors",
+    "{{count}} прием_zero": "{{count}} appointments",
+   "{{count}} прием_one": "{{count}} appointment",
+   "{{count}} прием_other": "{{count}} appointments",
+    "{{count}} пациент_zero": "{{count}} patients",
+   "{{count}} пациент_one": "{{count}} patient",
+   "{{count}} пациент_other": "{{count}} patients"
+}

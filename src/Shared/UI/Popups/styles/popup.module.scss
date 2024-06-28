@@ -1,0 +1,48 @@
+.popup {
+  position: relative;
+}
+
+.active {
+  background: var(--light-bg-redesigned);
+}
+
+.disabled {
+  opacity: 0.7;
+}
+
+.optionsBottomLeft {
+  top: 100%;
+  right: 0;
+}
+
+.optionsBottomRight {
+  top: 100%;
+  left: 0;
+}
+
+.optionsTopLeft {
+  bottom: 100%;
+  right: 0;
+}
+
+.optionsTopRigth {
+  bottom: 100%;
+  left: 0;
+}
+
+.menu {
+  border-radius: 18px;
+  border: 1px solid var(--accent-redesigned);
+
+  // чтобы выбранный пунк не залезал за закругление
+  overflow: hidden;
+}
+
+.trigger {
+  background: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+}
