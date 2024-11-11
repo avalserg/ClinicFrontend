@@ -183,15 +183,7 @@ Config
 
 ## Сущности (entities)
 
-- [Article](/src/Entities/Article/README.md)
-- [Comment](/src/Entities/Comment/README.md)
-- [Counter](/src/Entities/Counter/README.md)
-- [Country](/src/Entities/Country/README.md)
-- [Currency](/src/Entities/Currency/README.md)
-- [Notification](/src/Entities/Notification/README.md)
-- [Profile](/src/Entities/Profile/README.md)
-- [Rating](/src/Entities/Rating/README.md)
-- [User](/src/Entities/User/README.md)
+
 
 ## Фичи (features)
 
